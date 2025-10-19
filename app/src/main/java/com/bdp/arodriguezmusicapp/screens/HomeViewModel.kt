@@ -1,5 +1,7 @@
 package com.bdp.arodriguezmusicapp.screens
 
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.bdp.arodriguezmusicapp.models.Album
@@ -33,4 +35,10 @@ class HomeViewModel : ViewModel() {
             _albums.value = UiState.Error(e.localizedMessage ?: "Error")
         }
     }
+}
+
+@Composable
+@Preview
+fun HomeScreenPreview2() {
+    HomeScreen {}
 }

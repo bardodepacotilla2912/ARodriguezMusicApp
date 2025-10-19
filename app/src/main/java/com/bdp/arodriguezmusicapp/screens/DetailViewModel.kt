@@ -1,5 +1,7 @@
 package com.bdp.arodriguezmusicapp.screens
 
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.bdp.arodriguezmusicapp.models.Album
@@ -23,3 +25,9 @@ class DetailViewModel : ViewModel() {
         }
     }
 }
+
+//@Composable
+//@Preview
+//fun DetailScreenPreview() {
+//    DetailScreen(id = "1")
+//}
